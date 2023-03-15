@@ -13,12 +13,11 @@ const Registration = () => {
 
   const handlesubmit = (e) => {
     e.preventDefault();
-    const regobj = { id, name, password, email, phone, address, gender };
-    console.log(regobj);
+    const regobj = { id,name, password, email, phone, address, gender };
 
     fetch("http://localhost:8000/users", {
       method: "POST",
-      headers: { "conetnt-type": "application/json" },
+      headers: { "content-type": "application/json" },
       body: JSON.stringify(regobj),
     })
       .then((res) => {

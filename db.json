@@ -1,10 +1,13 @@
 {
   "users": [
     {
-      "id": 1
-    },
-    {
-      "id": 2
+      "id": "Ravi Teja",
+      "name": "Ravi Teja",
+      "password": "ravi@123",
+      "email": "ravi@gmail.com",
+      "phone": "9945788178",
+      "address": "address",
+      "gender": "male"
     }
   ]
 }
